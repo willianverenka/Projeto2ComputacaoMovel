@@ -6,6 +6,7 @@ export const styles = StyleSheet.create({
       alignItems: 'center',
       justifyContent: 'center',
       backgroundColor: '#F5F5F5',
+      gap: 20
     },
     image: {
       width: 200,
@@ -35,10 +36,9 @@ export const styles = StyleSheet.create({
     },
     navigationButtons: {
       flexDirection: 'row',
-      marginTop: 40,
     },
     navButton: {
-      backgroundColor: '#34495E',
+      backgroundColor: '#0F52BA',
       padding: 15,
       borderRadius: 15,
       marginHorizontal: 10,
@@ -112,7 +112,7 @@ export const styles = StyleSheet.create({
       fontSize: 16,
     },
     saveButton: {
-      backgroundColor: '#ABCDEF',
+      backgroundColor: '#0F52BA',
       padding: 15,
       borderRadius: 10,
       alignItems: 'center',
