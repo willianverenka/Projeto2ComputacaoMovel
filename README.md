@@ -1,6 +1,6 @@
 # 📱 Pomodoro App
 
-Um aplicativo de Pomodoro desenvolvido em React Native que ajuda você a gerenciar seu tempo de trabalho e descanso. O app inclui funcionalidades como timer personalizável, estatísticas de uso, histórico de sessões e feedback sensorial.
+Um aplicativo de Pomodoro desenvolvido em React Native para gerenciar seu tempo de trabalho/estudo e descanso. O app inclui funcionalidades como timer personalizável, estatísticas de uso, histórico de sessões e feedback sensorial.
 
 ## 🚀 Funcionalidades
 
@@ -23,7 +23,7 @@ Um aplicativo de Pomodoro desenvolvido em React Native que ajuda você a gerenci
   - Personalização do tempo de pausa
   - Salvamento automático das preferências
 
-- 📱 **Recursos do Dispositivo**
+- 📱 **Recursos do Sensoriais**
   - Feedback vibratório ao finalizar sessões
   - Feedback sonoro ao completar ciclos
   - Persistência de dados usando AsyncStorage
@@ -45,12 +45,11 @@ src/
 │   ├── Estatisticas.js  
 │   ├── Configuracoes.js 
 │   └── Historico.js     
-├── styles/
-│   └── index.js         
-├── storage/
-│   └── index.js         
-├── controle/
-│   └── index.js         
+│         
+├── storage.js
+│           
+├── controle.js
+│            
 └── App.js               
 ```
 
