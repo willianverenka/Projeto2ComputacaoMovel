@@ -11,10 +11,12 @@ import {
 import Timer from './components/Timer';
 import Configuracoes from './components/Configuracoes';
 import Estatisticas from './components/Estatisticas';
+import Historico from './components/Historico';
 
 const Stack = createStackNavigator();
 
 export default function App() {
+  // padrao de 25 minutos de trabalho e 5 minutos de pausa
   const [workTime, setWorkTime] = useState('25');
   const [breakTime, setBreakTime] = useState('5');
 
@@ -54,6 +56,7 @@ export default function App() {
             />
           )}
         </Stack.Screen>
+        <Stack.Screen name="Historico" component={Historico} />
       </Stack.Navigator>
     </NavigationContainer>
   );
